@@ -67,8 +67,8 @@ def main():
     new_x = [point[0] for point in rotated_coords]
     new_y = [point[1] for point in rotated_coords]
 
-    plt.scatter(new_x, new_y, color="blue", label="Точки обернуті навколо")    
-    plt.scatter(rotation_point[0], rotation_point[1], color="black", s=50, label="Точка обертання")
+    plt.scatter(new_x, new_y, color="blue", s = 1, label="Точки обернуті навколо")    
+    plt.scatter(rotation_point[0], rotation_point[1], color="black", s= 50, label="Точка обертання")
     
     plt.title("Афінне обертання навколо точки на 70 градусів")
     plt.xlabel("Вісь абсцис(X)")
